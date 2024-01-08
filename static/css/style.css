@@ -1,3 +1,12 @@
+
+@font-face{
+    font-family: 'Roboto';
+    src:url(/static/font/Roboto-BoldItalic.ttf)format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 :root{
     --primary-color :  rgba(9, 63, 240, 0.9);
     --opacity: rgba(0,0,0,0.3);
@@ -17,7 +26,7 @@
 
 body{
     background:var(--body);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'roboto', sans-serif, ;
     box-sizing: border-box;
   
 }
