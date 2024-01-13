@@ -189,19 +189,26 @@ border-color: hwb(0 94% 4%);
     border-radius: 5px;
 }
 .article{
-    margin: 20px auto;
+    margin: 20px auto ;
     box-shadow: 5px 5px 15px var(--opacity);
     max-width: 70%;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+
+}
+.article-container .article .img{
+    width: 100%;
+   
 }
 .article-container  .article img{
-    width: 200px;
-    height: 200px;
+    width: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    margin-right: 20px;
-    shape-outside: margin-box;
-    margin: 20px;
+   
+    
+
 }
 
 .article article p, h2{
@@ -210,7 +217,12 @@ border-color: hwb(0 94% 4%);
     
     
 }
-
+.article article p{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    
+}
 .article article h2{
     text-align: center;
     margin-bottom: 20px;
